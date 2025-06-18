@@ -1,0 +1,991 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("Images page principale/arene.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color:#E0D8B0 ;
+}
+
+p{
+    font-size: 50px;
+
+}
+
+
+.logohaut{
+     height: 10px;
+     width: 10px;
+     display: block;            
+     gap: 10px;               /* espace entre les logos, ajuste à ta convenance */
+     margin-left: 20px;       /* décale tout le groupe vers la droite */
+     padding-top: 20px; 
+}
+
+#youtube{
+    height: 70px;
+    width: 70px;
+    left: 100px;
+}
+
+#twitch{
+    height: 67px;
+    width: 67px;
+    
+}
+
+#mail{
+    height: 64px;
+    width: 64px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: /*fantasy;*/ system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 600px;
+    margin-top: 100px;
+    text-shadow: 8px 5px 5px grey;
+    
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 350px;
+    margin-left: 1000px;
+}
+
+#youtube:hover{
+    filter:contrast(2);
+}
+
+#twitch:hover{
+    filter:contrast(2);
+}
+
+#mail:hover{
+    filter: grayscale(0.6);
+}
+
+
+#flèche{
+    margin-left: 1780px;
+    width: 1000px;
+    height: auto;
+}
+
+.groupedemonstres{
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  gap: 10px; /* espace entre les images */
+  flex-wrap: wrap; /* permet de passer à la ligne si nécessaire */
+  margin-top: 5px;
+}
+
+.groupedemonstres2{
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  gap: 10px; /* espace entre les images */
+  flex-wrap: wrap; /* permet de passer à la ligne si nécessaire */
+  margin-top: 10px;
+}
+
+.groupedemonstres3{
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  gap: 10px; /* espace entre les images */
+  flex-wrap: wrap; /* permet de passer à la ligne si nécessaire */
+  margin-top: 10px;
+}
+
+.minia1{
+    /*width: 200px;*/
+    top: 25px;
+    left: 170px;
+    border: 2px solid black;
+    line-height: 2px;
+    height: 213px;
+    width: 213px;
+}
+
+.minia2{
+    /*width: 200px;*/
+    top: 25px;
+    left: 170px;
+    border: 2px solid black;
+    line-height: 2px;
+    height: 213px;
+    width: 213px;
+}
+
+.minia1:hover{
+    zoom: 110%;
+    filter: grayscale(2);
+}
+
+.minia2:hover{
+    zoom: 110%;
+    filter: grayscale(2);
+}
+
+#alatreon{
+    border: 4px solid red;
+}
+
+#fatalis{
+    border: 4px solid red;
+}
+
+
+.Deviljho1{
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    margin-left: 1000px;
+    margin-top: 40px;
+    font-style: italic;
+    
+}
+
+#D{
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    margin-left: 999px;
+    margin-top: 235px;
+    font-style: italic;
+}
+
+#titre{
+    font-size: larger;
+}
+
+#imageDeviljho{
+    /*position: relative;*/
+    width: 875px;
+    height: auto;
+    margin-top: 31px;
+    margin-left: 50px;
+    display: flex;
+}
+
+#imageMizutsune{
+    width: 750px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 50px;
+    display: flex;
+}
+
+#imageBrachydios{
+    width: 850px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 50px;
+    display: flex;
+}
+
+#imageBrachydiostempête{
+    position: relative;
+    width: 405px;
+    height: auto;
+    margin-top: 41px;
+    margin-right: 20px;
+}
+
+#imageZinogre{
+    position: relative;
+    width: 670px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+#imageZinogreStygien{
+    position: relative;
+    width: 405px;
+    height: auto;
+    margin-top: 41px;
+    margin-left: 10px;
+}
+
+#imageGore{
+    position: relative;
+    width: 970px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#imageShageru{
+    position: relative;
+    width: 440px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 290px;
+}
+
+#imageshageruéveillé{
+    position: relative;
+    width: 405px;
+    height: auto;
+    margin-top: 41px;
+    margin-right: 20px;
+}
+
+#imageAstalos{
+    position: relative;
+    width: 690px;
+    height: auto;
+    margin-top: 41px;
+    margin-left: 60px;
+}
+
+#imageastalosprinceorage{
+    position: relative;
+    width: 405px;
+    height: auto;
+    margin-top: 41px;
+    margin-right: 20px;
+}
+
+#imageGammoth{
+    position: relative;
+    width: 740px;
+    height: auto;
+    margin-top: 41px;
+    margin-left: 60px;
+}
+
+#imagegammothgivreancien{
+    position: relative;
+    width: 460px;
+    height: auto;
+    margin-top: 41px;
+    margin-left: 1px;
+}
+
+#imageGlavenus{
+    position: relative;
+    width: 699px;
+    height: auto;
+    margin-top: 41px;
+    margin-left: 70px;
+}
+
+#imageGlavenusacide{
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin-top: 41px;
+    margin-left: 10px;
+}
+
+#imageTeostra{
+    position: relative;
+    width: 799px;
+    height: auto;
+    margin-top: 31px;
+    margin-left: 80px;
+}
+
+#imageTeostraéveillé{
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin-top: 41px;
+    margin-left: 10px;
+}
+
+#imageLunastra{
+    position: relative;
+    width: 799px;
+    height: auto;
+    margin-top: 31px;
+    margin-left: 80px; 
+}
+
+#imageLunastraetTeostra{
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin-top: 41px;
+    margin-left: 10px;
+}
+
+#imageArkveld{
+    position: relative;
+    width: 750px;
+    height: auto;
+    margin-top: 31px;
+    margin-left: 80px; 
+}
+
+#imageAlatreon{
+    position: relative;
+    width: 600px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+#imageFatalis{
+    position: relative;
+    width: 890px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+#imageFatalis:hover{
+    zoom: 105%;
+}
+
+#imageAlatreon:hover{
+    zoom: 105%;
+}
+
+#imageArkveld:hover{
+    zoom: 105%;
+}
+
+#imageLunastra:hover{
+    zoom: 105%;
+}
+
+#imageTeostra:hover{
+    zoom: 105%;
+}
+
+#imageGlavenus:hover{
+    zoom: 105%;
+}
+
+#imageAstalos:hover{
+    zoom: 105%;
+}
+
+#imageShageru:hover{
+    zoom: 105%;
+}
+
+#imageGore:hover{
+    zoom: 105%;
+}
+
+#imageZinogre:hover{
+    zoom: 105%;
+}
+
+#imageMizutsune:hover{
+    zoom: 105%;
+}
+
+#imageDeviljho:hover{
+    zoom: 105%;
+}
+
+#imageBrachydios:hover{
+    zoom: 105%;
+}
+
+#imageGammoth:hover{
+    zoom: 105%;
+}
+
+#imageDeviljhoCarnage{
+    position: relative;
+    width: 505px;
+    height: auto;
+    margin-top: 41px;
+    margin-left: 10px;
+    /*display: flex;*/
+}
+
+
+
+.titre{
+    font-size: 100px;
+}
+
+.bandeau{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right, #1e2f1b, #3b5a3d); /* dégradé brun */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+}
+
+.bandeaumizu{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right, #661f4d, #c75c8a); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+    margin-top: 700px;
+    
+}
+
+.bandeauBrachy{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right,#24544f, #3d7b77, #24544f, #1a2d28); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+    margin-top: 700px;
+}
+
+.bandeauZinogre{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right,#0a0f1c, #1c3c5a, #1c3c5a, #3d7b77); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+    margin-top: 700px;
+
+}
+
+.bandeauGore{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right,#0b0b0f, #2a083b, #2d1333, #420d5c, #4c045e); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+    margin-top: 700px;
+}
+
+.bandeauShageru{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right, #eae7dc, #d4af37, #bfa96f, #e8e4ce); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+    margin-top: 700px;
+}
+
+.bandeauAstalos{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right, #0f3b17, #058168, #1a790a, #7a7a06); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+    margin-top: 700px;
+}
+
+.bandeauGammoth{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right, #2a2d3c, #4e78a0, #a8d8f8, #aaa9a9); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+    margin-top: 700px;
+}
+
+.bandeauGlavenus{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right, #1e1f22, #2c3a4d, #6e0e0a, #771c12); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+    margin-top: 700px;
+}
+
+.bandeauTeostra{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right, #2c1a14, #8b1e14, #8f3b0e); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+    margin-top: 700px;
+}
+
+.bandeauLunastra{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right, #0c0f2c, #1a3ca5, #015781); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+    margin-top: 700px;
+}
+
+.bandeauArkveld{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right, #3f4b94,#b2b8d8); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 3px solid #3a2415;
+    border-bottom: 3px solid #3a2415;
+    margin-top: 700px;
+}
+
+.bandeauAlatreon{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to left, #7f1d1d, #3b0a4c, #0c2d48); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 8px solid #3a2415;
+    border-bottom: 8px solid #3a2415;
+    margin-top: 700px;
+}
+
+.bandeauFatalis{
+    position: relative;
+    width: 100%;
+    height: 580px; 
+    background: linear-gradient(to right, #0b0b0b,#2f2f2f,#6e0a0a); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ombre stylée */
+    border-top: 8px solid #3a2415;
+    border-bottom: 8px solid #3a2415;
+    margin-top: 700px;
+}
+
+.Deviljho2{
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+
+.pad{
+    padding-left: 80px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    display:block;
+}
+
+.pad2{
+    padding-left: 6px;
+    /*padding-right: 30px;*/
+    margin-bottom: 20px;
+    /*font-size: 25px;*/
+    display:flex;
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    margin-right: 780px;
+    margin-left: 80px;
+    align-items: start;
+    /*margin-top: 235px;*/
+    
+}
+
+.tableau{
+    margin-left: 400px;
+    height: auto;
+    width: 870px;
+}
+
+.tableauMizu{
+    margin-left: 670px;
+    height: auto;
+    width: 470px;
+}
+
+.tableauBrachy{
+    margin-left: 660px;
+    height: auto;
+    width: 670px;
+}
+
+.tableauZinogre{
+    margin-left: 660px;
+    height: auto;
+    width: 670px;
+}
+
+.tableauGore{
+    margin-left: 660px;
+    height: auto;
+    width: 670px;
+}
+
+.tableauShageru{
+    margin-left: 660px;
+    height: auto;
+    width: 670px;
+}
+
+.tableauAstalos{
+    margin-left: 670px;
+    height: auto;
+    width: 470px;
+}
+
+.tableauGammoth{
+    margin-left: 670px;
+    height: auto;
+    width: 470px;
+}
+
+.tableauGlavenus{
+    margin-left: 510px;
+    height: auto;
+    width: 870px;
+}
+
+.tableauTeostra{
+    margin-left: 510px;
+    height: auto;
+    width: 870px;
+}
+
+.tableauLunastra{
+    margin-left: 510px;
+    height: auto;
+    width: 870px;
+}
+
+.tableauArkveld{
+    margin-left: 710px;
+    height: auto;
+    width: 470px;
+}
+
+
+.fig{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 475px;
+    margin-left: 1300px;
+    margin-bottom: 5500px;
+}
+
+.fig:hover{
+    background-color: whitesmoke;
+}
+
+.figMizu{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 353px;
+    margin-left: 1300px;
+    margin-bottom: 5500px;
+}
+
+.figBrachy{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 353px;
+    margin-left: 1300px;
+    margin-bottom: 5500px;
+}
+
+.figZinogre{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 430px;
+    margin-left: 1300px;
+    margin-bottom: 5500px;
+}
+
+.figGore{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 390px;
+    margin-left: 1300px;
+    margin-bottom: 5500px;
+}
+
+.figShageru{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 410px;
+    margin-left: 1300px;
+    margin-bottom: 5500px;
+}
+
+.figAstalos{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 410px;
+    margin-left: 1300px;
+    margin-bottom: 5500px;
+}
+
+.figGammoth{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 450px;
+    margin-left: 1300px;
+    margin-bottom: 5500px;
+}
+
+.figGlavenus{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 520px;
+    margin-left: 1300px;
+    margin-bottom: 5500px;
+}
+
+.figTeostra{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 520px;
+    margin-left: 1300px;
+    margin-bottom: 5500px;
+}
+
+.figLunastra{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 520px;
+    margin-left: 1300px;
+    margin-bottom: 5500px;
+}
+
+.figAlatreon{
+    position:absolute;
+    border: 1px solid black;
+    padding: 5px;
+    width: 560px;
+    margin-left: 1200px;
+    margin-bottom: 5500px;
+}
+
+.figLunastra:hover{
+    background-color: whitesmoke;
+}
+.figTeostra:hover{
+    background-color: whitesmoke;
+}
+
+.figGlavenus:hover{
+    background-color: whitesmoke;
+}
+
+.figGammoth:hover{
+    background-color: whitesmoke;
+}
+
+.figShageru:hover{
+    background-color: whitesmoke;
+}
+
+.figGore:hover{
+    background-color: whitesmoke;
+}
+
+.figZinogre:hover{
+    background-color: whitesmoke;
+}
+
+.figMizu:hover{
+    background-color: whitesmoke;
+}
+
+.figBrachy:hover{
+    background-color: whitesmoke;
+}
+
+.figAstalos:hover{
+    background-color: whitesmoke;
+}
+
+.figcaption{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+footer{
+    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+#footer:hover{
+    filter:brightness(1.4);
+}
+
+#flèche{
+    width: 70px;
+    height: auto;
+}
+
+/*#astalos{
+    height: 213px;
+    width: 213px;
+}
+
+#gammoth{
+    height: 213px;
+    width: 213px;
+}
+
+#glavenus{
+    height: 213px;
+    width: 213px;
+} */
+
+/*#Mizutsune{
+    height: 213px;
+    width: 213px;
+    
+}
+
+#Brachydios{
+    height: 213px;
+    width: 213px;
+}
+
+#Reydau{
+    height: 213px;
+    width: 213px;
+}
+
+#Gore{
+    height: 213px;
+    width: 213px;
+}
+
+#shageru{
+    height: 213px;
+    width: 213px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div{
+    width: 200px;
+    height: 200px;
+    left:auto
+    
+}
+
+.organisation{
+    margin: auto 0;    
+}
+
+.sélection1{
+    top: 100px;
+    left: 170px;
+    background-color: blue;
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    line-height: 2px;    
+}
+
+.sélection2{
+    bottom: 317px;
+    left: 400px;
+    background-color: blue;
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    line-height: 2px; 
+}
+
+.sélection3{
+    bottom: 733px;
+    left: 630px;
+    background-color: blue;
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    line-height: 2px;
+}
+
+.sélection4{
+    bottom: 1150px;  
+    left: 860px;  
+    background-color: blue;
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    line-height: 2px;
+}
+
+.sélection5{
+    bottom: 1566px;
+    left: 1090px;
+    background-color: blue;
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    line-height: 2px;
+}
+
+.sélection6{
+    bottom: 1983px;
+    left: 1320px;
+    background-color: blue;
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    line-height: 2px;
+}
+
+.sélection7{
+    bottom: 2400px;
+    left: 1550px;
+    background-color: blue;
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    line-height: 2px;
+}*/
+
